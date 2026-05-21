@@ -1,0 +1,13 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        format_sql: true
+app:
+  messaging:
+    rabbit-enabled: false
+  failure-simulation:
+    inventory-failure-rate: 0.0
+    notification-failure-rate: 0.0
